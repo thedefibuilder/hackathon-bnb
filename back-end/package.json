@@ -1,0 +1,40 @@
+{
+  "name": "back-end",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development npx genezio local",
+    "start:prod": "cross-env NODE_ENV=production npx genezio local",
+    "lint": "npx eslint --ext ts ./src",
+    "lint:fix": "npx eslint --ext ts ./src --fix",
+    "prettier": "prettier --write ./src/**/*.ts"
+  },
+  "keywords": [],
+  "author": "DeFi Builder thedefibuilder@gmail.com",
+  "license": "CC BY-NC-SA 4.0",
+  "dependencies": {
+    "@langchain/community": "^0.0.20",
+    "@langchain/core": "^0.1.12",
+    "@langchain/openai": "^0.0.11",
+    "@pinecone-database/pinecone": "^1.1.0",
+    "dotenv": "^16.3.1",
+    "genezio": "^0.7.4",
+    "langchain": "^0.1.2",
+    "zod": "^3.22.4",
+    "zod-to-json-schema": "^3.22.3"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^3.4.0",
+    "@types/node": "^20.11.10",
+    "@types/uuid": "^9.0.7",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^8.10.0",
+    "js-yaml": "^4.1.0",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  }
+}

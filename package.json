@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "license": "CC BY-NC-SA 4.0",
+  "scripts": {
+    "postinstall": "npx husky install",
+    "lint": "cd front-end && npm run lint && cd ../back-end && npm run lint"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.5.0",
+    "@commitlint/config-conventional": "^18.5.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0"
+  },
+  "lint-staged": {
+    "front-end/src/**/*.*": "",
+    "back-end/src/**/*.*": ""
+  }
+}

@@ -1,0 +1,4 @@
+{
+	"files.eol": "\n",
+	"eslint.workingDirectories": ["./front-end", "./genezio-back-end"]
+}

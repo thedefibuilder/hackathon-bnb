@@ -1,0 +1,20 @@
+name: ai-builder
+region: us-east-1
+language: ts
+cloudProvider: genezio
+options:
+  nodeRuntime: nodejs18.x
+frontend:
+  path: ../front-end/dist
+  subdomain: ai-builder
+scripts:
+  preBackendDeploy: npm install --force
+  preFrontendDeploy: cd ../front-end && npm install && npm run build
+packageManager: npm
+classes:
+  - path: ./src/LlmService.ts
+    type: jsonrpc
+    methods: []
+workspace:
+  backend: .
+  frontend: ../front-end
