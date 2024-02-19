@@ -2,7 +2,7 @@ import { useReducer } from 'react';
 
 import type TArtifact from '@/types/artifact';
 
-import { LlmService } from '@genezio-sdk/ai-builder_us-east-1';
+import { LlmService } from '@genezio-sdk/bnb-builder_us-east-1';
 
 import { useToast } from '@/components/ui/toast/use-toast';
 import EReducerState from '@/constants/reducer-state';

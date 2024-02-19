@@ -14,7 +14,7 @@
     "test:ui": "playwright test --ui"
   },
   "dependencies": {
-    "@genezio-sdk/ai-builder_us-east-1": "^1.0.0-prod",
+    "@genezio-sdk/bnb-builder_us-east-1": "^1.0.0-prod",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
     "@radix-ui/react-label": "^2.0.2",

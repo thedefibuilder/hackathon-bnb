@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-import type { TVulnerability } from '@genezio-sdk/ai-builder_us-east-1';
+import type { TVulnerability } from '@genezio-sdk/bnb-builder_us-east-1';
 
 import { Document, Image, Page, StyleSheet, Text, View } from '@react-pdf/renderer';
 

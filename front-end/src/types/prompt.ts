@@ -1,4 +1,4 @@
-import type { TContractType } from '@genezio-sdk/ai-builder_us-east-1';
+import type { TContractType } from '@genezio-sdk/bnb-builder_us-east-1';
 
 type TPrompt = {
   template: TContractType;

@@ -4,12 +4,12 @@ import { bscTestnet, opBNBTestnet } from 'wagmi/chains';
 
 const testnetChains: TChain[] = [
   {
-    name: 'BNB Chain',
+    name: 'BNB',
     logo: 'https://cryptologos.cc/logos/bnb-bnb-logo.png',
     network: bscTestnet
   },
   {
-    name: 'opBNB Chain',
+    name: 'opBNB',
     logo: 'https://pbs.twimg.com/profile_images/1565354861616832513/ovh5FyDN_400x400.png',
     network: opBNBTestnet
   }

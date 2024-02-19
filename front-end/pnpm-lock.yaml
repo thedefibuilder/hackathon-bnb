@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@genezio-sdk/ai-builder_us-east-1':
+  '@genezio-sdk/bnb-builder_us-east-1':
     specifier: ^1.0.0-prod
     version: 1.0.0-prod
   '@radix-ui/react-dialog':
@@ -2022,8 +2022,8 @@ packages:
     resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
     dev: false
 
-  /@genezio-sdk/ai-builder_us-east-1@1.0.0-prod:
-    resolution: {integrity: sha512-A+Si2h9eOcbRkYpWLrCM7tR7QMbWmNPOhq/VPSIV3FmWRkpXXgcSSMIG8bwz6595CfnbFk9gFL89BqfbI/V6KA==, tarball: https://rt3ersglfpyjlkzcjgql3s7xju0nuzym.lambda-url.us-east-1.on.aws/RegistryHTTPHandler/npm/ai-builder_us-east-1/-/ai-builder_us-east-1-1.0.0-prod.tgz}
+  /@genezio-sdk/bnb-builder_us-east-1@1.0.0-prod:
+    resolution: {integrity: sha512-XiQozjTLxhC+s7Gu9Sytml5L8WpHp9GSEH/++i0VYN4dw7xdvAgf/GlgsonRitL1EuKywAJHXGC647qvFbXC1g==, tarball: https://rt3ersglfpyjlkzcjgql3s7xju0nuzym.lambda-url.us-east-1.on.aws/RegistryHTTPHandler/npm/bnb-builder_us-east-1/-/bnb-builder_us-east-1-1.0.0-prod.tgz}
     dev: false
 
   /@hapi/hoek@9.3.0:

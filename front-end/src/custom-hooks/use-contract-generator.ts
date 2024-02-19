@@ -1,8 +1,8 @@
 import { useReducer } from 'react';
 
-import type { TContractType } from '@genezio-sdk/ai-builder_us-east-1';
+import type { TContractType } from '@genezio-sdk/bnb-builder_us-east-1';
 
-import { LlmService } from '@genezio-sdk/ai-builder_us-east-1';
+import { LlmService } from '@genezio-sdk/bnb-builder_us-east-1';
 
 import EReducerState from '@/constants/reducer-state';
 import {

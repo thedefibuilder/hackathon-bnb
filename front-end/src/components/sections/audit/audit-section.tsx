@@ -2,7 +2,7 @@
 
 import React, { Suspense } from 'react';
 
-import type { TVulnerability, TVulnerabilitySeverity } from '@genezio-sdk/ai-builder_us-east-1';
+import type { TVulnerability, TVulnerabilitySeverity } from '@genezio-sdk/bnb-builder_us-east-1';
 
 import { cn } from '@/lib/utils';
 

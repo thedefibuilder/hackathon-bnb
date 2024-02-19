@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import type { TVulnerability } from '@genezio-sdk/ai-builder_us-east-1';
+import type { TVulnerability } from '@genezio-sdk/bnb-builder_us-east-1';
 
 import { pdf } from '@react-pdf/renderer';
 import { Loader2 } from 'lucide-react';
